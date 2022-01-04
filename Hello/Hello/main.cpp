@@ -5,7 +5,7 @@ using namespace std;
 #define MAX_NAME_LEN 60  // Maximum len of your name can't be more than 60
 
 //function to return name
-string getname(string name);
+string get_name(string name);
 
 
 
@@ -16,7 +16,7 @@ int main()
     char your_name[MAX_NAME_LEN];
     cin.getline(your_name, MAX_NAME_LEN);
     
-    cout << "Hello " << getname(your_name) << endl;
+    cout << "Hello " << get_name(your_name) << endl;
    
 }
 
